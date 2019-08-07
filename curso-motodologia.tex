@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[notitlepage]{article}
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage[brazilian]{babel}
@@ -23,10 +23,14 @@
     % \tableofcontents
 
     % \newpage
-    % \pagenumbering{roman}
-    
-    \include{tex/programas}
 
+    % Include inseriria uma quebra de página.
+    % \include{tex/programas}
+    \input{tex/programas}
     \input{tex/normas}
+    \input{tex/edital}
+
+    \section{Contato}
+    Email: \href{mailto:gbrito@uft.edu.br}{gbrito@uft.edu.br}
 
 \end{document}
